@@ -1,5 +1,10 @@
 module.exports = {
   nfl: {
-    url: 'api.fantasy.nfl.com'
+    host: 'api.fantasy.nfl.com'
+  },
+  rethinkdb: {
+    host: 'delphi.website',
+    port: '28015',
+    db: 'nfl'
   }
 }
