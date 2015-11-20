@@ -1,5 +1,8 @@
-// Don't forget to run -> npm install request
+var _       = require('lodash');
+var async   = require('async');
+var options = require('./config/options');
 var request = require('request');
+var secrets = require('./config/secrets');
 
 // Your API key, and  URL
 var api_key = 'SECRET',
